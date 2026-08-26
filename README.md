@@ -12,7 +12,7 @@ Endpoint Name | Method | Description
 ## API Reference
 
 #### 1. Ham vs Spam
-**endpoint:** `POST https://public-apis.onrender.com/public-api/v1/classify-text`
+**endpoint:** `POST https://api-collections-bbo8.onrender.com/public-api/v1/classify-text`
 
 **resquest body:**
 ```json
