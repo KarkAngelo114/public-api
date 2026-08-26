@@ -4,7 +4,7 @@ const cors = require('cors');
 /**
  * All origins are allowed to this applied route
  */
-exports.publicCors = cors();
+exports.publicCors = cors({origin:"*"});
 
 /**
  * Whitelisted origins are the only ones allowed to the applied route

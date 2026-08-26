@@ -6,3 +6,4 @@ expressiveCLI
 framework/
 nodemon.json
 node_modules/
+test.js

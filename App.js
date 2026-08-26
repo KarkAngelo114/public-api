@@ -50,7 +50,11 @@ app.use('/views', express.static(path.join(__dirname, 'views')));
     app.use('/api/endpoint2'publicCors, route2);
 
  */
-const { allowedCors, publicCors } = require('./middlewares/cors');
+const { publicCors } = require('./middlewares/cors');
+let infernceRoute = require('./routes/inference-route');
+
+// We use publicCors
+app.use("/public-api/v1", publicCors, infernceRoute);
 
 
 
