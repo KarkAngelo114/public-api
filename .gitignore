@@ -1,0 +1,8 @@
+### your .gitignore
+### this is where you will list files, folders so that they are ignore when pushing especially to github
+
+.env
+expressiveCLI
+framework/
+nodemon.json
+node_modules/
